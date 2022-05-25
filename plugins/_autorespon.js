@@ -17,7 +17,7 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? 'Oscarbotz lagi cape (・へ・)' : banned ? 'kamu dibanned' : '*APA OI NGETAG",ADA BANSOS KAH?!!*',
+                isBanned ? 'Rielbotz is here (・へ・)' : banned ? 'kamu dibanned' : '*APA OI NGETAG",ADA BANSOS KAH?!!*🗿',
                 '',
                 isBanned ? 'Unban' : banned ? 'Pemilik Bot' : '⋮☰ Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.menu',
@@ -69,7 +69,7 @@ Note: Syarat dan Ketentuan mungkin berlaku`.trim(), wm, 'Menu', '#menu', 'Owner'
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`Im BOT JR 🤖 || ⏰ Aktif selama ${uptime} jam |(*delay*🌕)| 👥 User : ${Object.keys(global.db.data.users).length} User || 🎐 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik by.JAROT'}`).catch(_ => _)
+        await this.setStatus(`Im BOT RIEL 🤖 || ⏰ Aktif selama ${uptime} jam |(*delay*🌕)| 👥 User : ${Object.keys(global.db.data.users).length} User || 🎐 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik by.RIELXd👺'}`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
