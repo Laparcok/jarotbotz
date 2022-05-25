@@ -9,7 +9,7 @@ const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
   before: `
 ╭═══════════════════════⬣
-║╭──❉ 〔⳹ ❋ཻུ۪۪𝐉𝐀𝐑𝐎𝐓𝐓 𝐁𝐎𝐓𝐙⳹ ❋ཻུ۪۪〕 ❉──────
+║╭──❉ 〔⳹ ❋ཻུ۪۪𝗥𝗜𝗘𝗟𝗕𝗢𝗧𝗭⳹ ❋ཻུ۪۪〕 ❉──────
 ║│➸Hai, %name!
 ║│➸Tersisa *%limit Limit*
 ║│➸Role *%role*
@@ -32,7 +32,7 @@ const defaultMenu = {
   body: '║│➸%cmd %islimit %isPremium',
   footer: '*╰───❉*\n',
   after: `
-  ⬣━〔Powered By 𝐉𝐚𝐫𝐨𝐭𝐭〕━⬣
+  ⬣━〔𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗿𝗶𝗲𝗹〕━⬣
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -225,19 +225,19 @@ let uptime = clockString(_uptime)
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
                         "description": `╭═══════════════════════
-║╭──❉ 〔 ⳹ ❋ཻུ۪۪𝐁𝐎𝐓 𝐉𝐀𝐑𝐎𝐓⳹ ❋ཻུ۪۪ 〕 ❉────── 
+║╭──❉ 〔 ⳹ ❋ཻུ۪۪𝗥𝗜𝗘𝗟𝗕𝗢𝗧𝗭⳹ ❋ཻུ۪۪ 〕 ❉────── 
 ║│➸⏰Aktif selama ${uptime}
 ║│➸⚡Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-║│➸ Nama bot: *𝐁𝐎𝐓𝐓 𝐉𝐑*
+║│➸ Nama bot: *𝐑𝐈𝐄𝐋𝐁𝐎𝐓𝐙 𝐕5*
 ║│➸ *${conn.blocklist.length}* Terblock
 ║│➸ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 ║│➸ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ╰─────────❉
 _____••••••••• 
-⬣━〔Powered By 𝐉𝐀𝐑𝐎𝐓〕━⬣
+⬣━〔Powered By 𝐑𝐢𝐞𝐥〕━⬣
 ▌│█║▌║▌║║▌║▌║█│▌ `.trim(),
-                        "footerText": "*group offc bot https://chat.whatsapp.com/E5l0ofPuMxG3H8ZhMRyI7e*",
-                        "buttonText": "««TAMPILAN MENU««",
+                        "footerText": "*𝐆𝐫𝐨𝐮𝐩 𝐨𝐟𝐟𝐜 𝐛𝐨𝐭𝐳 https://tinyurl.com/y5ck3k4u*",
+                        "buttonText": "««𝐦𝐞𝐧𝐮 𝐝𝐢𝐬𝐢𝐧𝐢««",
                         "listType": "SINGLE_SELECT",
                         "sections": [
                             {
@@ -247,7 +247,7 @@ _____•••••••••
                                     "rowId": ".donasi"
                                 }, {
                                     "title":      "|🖼️| ❯╾Daftar╼-",
-                                    "description": "Daftar diri anda di JAROTTbotz",
+                                    "description": "Daftar diri anda di 𝐑𝐈𝐄𝐋botz",
                                     "rowId": ".daftar"
                                 }, {
  "title":      "|🎲| ❯╾Setelan grub╼-",
@@ -255,15 +255,15 @@ _____•••••••••
                                     "rowId": ".setelangrub"
                                 }, {
 "title":      "|🛒| ❯╾Store Menu╼-",
-                                    "description": "store di JAROTTbotz",
+                                    "description": "store di 𝐑𝐈𝐄𝐋botz",
                                     "rowId": ".iklan"
                                 }, {
   "title":  "|👩‍💻| ❯╾jadibot╼-",
-                                    "description": "bergabung bersama bot JAROTT",
+                                    "description": "bergabung bersama bot riel",
                                     "rowId": ".jadibot"
                                 }, {
   "title":  "|🙇‍♂️| ❯╾group╼-",
-                                    "description": "bergabung di grub bersama bot JAROTT",
+                                    "description": "bergabung di grub bersama bot riel",
                                     "rowId": ".gcbot"
                                 }, {
   "title":  "|📒| ❯╾biodata owner╼-",
@@ -416,15 +416,15 @@ _____•••••••••
                                 "title": "⟣──────────────❲  All-Menu  ❳──────────────⟢"
                             }, {
                                 "rows": [{
-                                    "title": "|👩‍💻| Owner JAROTTBOTZ",
-                                    "description": "pemilik OscarBOTZ",
+                                    "title": "|👩‍💻| Owner RIELBOTZ",
+                                    "description": "pemilik RIELBOTZ",
                                     "rowId": ".owner"
                                 }, {
                                     "title": "|🛠|Status bot",
                                     "description": "Status dan informasi bot",
                                     "rowId": ".botstatus"
                                 }, {
-                                    "title": "|🖨️| Rules JAROTTbotz",
+                                    "title": "|🖨️| Rules RIELbotz",
                                     "description": "Mari menaati peraturan demi Kita bersama",
                                     "rowId": ".rules"
                                 }, {
