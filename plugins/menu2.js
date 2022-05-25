@@ -4,7 +4,7 @@ let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
 
 let str = `♡   ❍ㅤ  ⎙ㅤ ⌲
-╭─[ *_BotJr_* ]─✧
+╭─[ *𝐑𝐢𝐞𝐥𝐛𝐨𝐭𝐳* ]─✧
 ╰─────···
 📮 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 𝚖𝚎𝚗𝚞 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
 
@@ -544,8 +544,8 @@ let str = `♡   ❍ㅤ  ⎙ㅤ ⌲
 *╰───❉*
 
 
-  ⬣━〔Powered By Jarot〕━⬣
-© BotJr`
+  ⬣━〔Powered By 𝐫𝐢𝐞𝐥〕━⬣
+© 𝐫𝐢𝐞𝐥𝐱𝐝`
 let name = await conn.getName(m.sender)
 
 let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
@@ -557,14 +557,14 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
       "product": {
         "productImage": image,
         "productId": "4938174216214248",
-        "title": "𝚃𝙰𝙼𝙿𝙸𝙻𝙰𝙽 𝙼𝙴𝙽𝚄 BotJr",
+        "title": "𝚃𝙰𝙼𝙿𝙸𝙻𝙰𝙽 𝙼𝙴𝙽𝚄 𝑅𝐼𝐸𝐿",
         "description": '\n' + wm + '\n' + str,
-        "retailerId": "Thanks For BotJr !",
+        "retailerId": "Thanks For Rielbotz !",
         "url": "▌│█║▌║▌║║▌║▌║█│▌",
         "descriptionCount": "999999999",
         "productImageCount": "1",
       },
-      "businessOwnerJid": "6285850539404@s.whatsapp.net",
+      "businessOwnerJid": "6282146218274@s.whatsapp.net",
       "contextInfo": {
         "forwardingScore": 9999,
         "isForwarded": true
