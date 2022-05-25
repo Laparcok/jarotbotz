@@ -3,16 +3,16 @@ let handler = async (m, { conn, text }) => {
   let ext= `
 ╭═════════════════
 ║╭──❉ *BIODATA OWNER* ❉───
-║│➸ *Nama* : Oscar ( nama samaran ) 
-║│➸ *Umur* : 18
-║│➸ *Kelas* :  lulus
-║│➸ *Status* : butuh ayng AWOKAWOK
+║│➸ *Nama* : 𝐑𝐈𝐄𝐋 
+║│➸ *Umur* : 15 𝐓𝐇
+║│➸ *Kelas* :  9 𝐒𝐌𝐏
+║│➸ *Status* : butuh ayng 𝐎𝐀𝐊𝐖𝐖𝐊
 ║╰───────────────
 ╰════════════════
 ╭════════════════
 ║╭──❉ *ASAL KOTA* ❉───
-║│➸ *DAERAH* : *_PASKOT =}} JATIM_*
-║│➸ *ASAL KOTA* : *_PASKOT_*
+║│➸ *DAERAH* : 𝐊𝐀𝐋𝐈𝐌𝐀𝐍𝐓𝐀𝐍 𝐓𝐈𝐌𝐔𝐑 =}} 𝐒𝐌𝐃_*
+║│➸ *ASAL KOTA* : *_𝐒𝐀𝐌𝐀𝐑𝐈𝐍𝐃𝐀_*
 ║│➸ *ALAMAT RUMAH* : *[PRIVASI]*
 ║│
 ║╰────────────────
