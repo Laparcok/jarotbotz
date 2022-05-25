@@ -27,7 +27,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   let { dl_link, thumb, title, filesize, filesizeF } = yt
   await conn.send2ButtonLoc(m.chat, await (await fetch(thumb)).buffer(), `
 ╭──❉┏┉⌣ ┈̥-̶̯͡..̷̴✽̶┄┈┈┈┈┈┈┈┈┈┈┉┓
-┆ *PLAY OSCARBOTZ*
+┆ *PLAY RIELBOTZ*
 └┈┈┈┈┈┈┈┈┈┈┈⌣ ┈̥-̶̯͡..̷̴✽̶⌣ ✽̶ 
  *Judul:* ${title}
  *Ukuran File Audio:* ${filesizeF}
