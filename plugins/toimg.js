@@ -8,7 +8,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     if (/webp/.test(mime)) {
         out = await webp2png(media)
     }
-    await conn.sendFile(m.chat, out, 'out.png', '*DAH NGAB*', m, false, {
+    await conn.sendFile(m.chat, out, 'out.png', '*DAH JADI*', m, false, {
   thumbnail: Buffer.alloc(0)
 })
 }
